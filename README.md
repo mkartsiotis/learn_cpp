@@ -3,7 +3,7 @@ The turtorial is based on several sources on the web that seemed helpful to me w
 RESOURSES:  
 CLASSES:  
 1. Introduction to classes: [INTRO_TO_CLASSES](https://www.youtube.com/watch?v=1D50iQuQjug&t=268s) 
-2. `hello in codegyhdgsahsaskj  mode`
+2. `hello hsdchsj j  mode`
 
 
 
