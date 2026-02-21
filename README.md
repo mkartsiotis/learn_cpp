@@ -4,7 +4,7 @@ RESOURSES:
 CLASSES:  
 1. Introduction to classes: [INTRO_TO_CLASSES](https://www.youtube.com/watch?v=1D50iQuQjug&t=268s) 
 2. `hello hsdchsj j  mode`
-
+3. ![C++image](https://repository-images.githubusercontent.com/124365799/7d888300-6a39-11ea-9025-fd5574f062c7)
 
 
 
