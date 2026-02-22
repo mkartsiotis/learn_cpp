@@ -1,8 +1,8 @@
-
 /*
- Overloading constructors: Having multiple constructors for the same function so that according to the parameters we
-have a different output. In that case we can call the class in a differnt way and get differnt results!!!!
-In this file we will showcase how we can call one constructor from the other
+  Overloading constructors: Having multiple constructors for the same function so that according to the parameters we
+have a different output. In that case we can call initialize class in a differnt way(with more or less parameters and
+get the results we want that may as well vary) In this file we will showcase one common multiple constructor technique
+that uses a chain constructor method.
 */
 #include <iostream>
 using namespace std;
