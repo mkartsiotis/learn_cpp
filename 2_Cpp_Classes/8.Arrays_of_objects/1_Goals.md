@@ -31,6 +31,6 @@ f[1].getX();
 Or: f[1].setX(12);  
 You get the idea.  
 
-**Now it is time to look into the first example on this folder**
+**Now it is time to look into the examples on this folder**
 
 
