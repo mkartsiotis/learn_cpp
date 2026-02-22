@@ -1,0 +1,21 @@
+/*
+
+*/
+#include <iostream>
+using namespace std;
+
+class Numbers
+{
+  private:
+    int *p;
+    int size;
+
+  public:
+    // Constructor. Dynamically allocates memory to store the number array.
+    Numbers()
+    {
+        size = 5;
+        p = new int[size];
+    }
+    // Destructor:
+}
