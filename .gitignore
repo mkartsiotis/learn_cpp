@@ -1,0 +1,15 @@
+# Ignore everything in the directories.
+*
+
+# Except directories themselves (so Git can traverse them)
+!*/
+
+# Except these specific file types
+!*.cpp
+!*.hpp
+!*.h
+!*.c
+!*.txt
+!*.md
+!*Makefile
+!.gitignore
