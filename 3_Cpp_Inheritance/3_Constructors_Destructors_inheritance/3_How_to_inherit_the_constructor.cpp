@@ -1,5 +1,5 @@
-/*What we want to see with this example is the order in which constructors and destructors are executed.
-  Run the code and see for yourself!(theory in the end of the file)
+/*
+  In this example we will explain how to inherit the constructor of the main to the derived class.
  */
 #include <iostream>
 using namespace std;
@@ -38,10 +38,9 @@ class Derived : public Base
 
 int main(void)
 {
-    // We are using dynamic memmory allocation
     cout << "Construct!\n";
-    Derived d(8, 3); // This moves the arguments.
-    d.print();
+    Derived d(8, 3); // Create a class Derived
+    d.print();       // Print the info we need
     cout << "Destruct!\n";
     return 0;
 }
