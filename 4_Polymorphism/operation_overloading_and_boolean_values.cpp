@@ -11,6 +11,7 @@ class Rectangle
     Rectangle(float s1, float s2);
     Rectangle operator+(Rectangle &op2);
     bool operator>(Rectangle &op2);
+    bool operator->(Rectangle &op1, Rectangle &op2);
     float area() const;
     void set_Sides(float a, float b);
     friend void toZero(Rectangle &r);
@@ -49,6 +50,10 @@ Rectangle Rectangle::operator+(Rectangle &op2)
 bool Rectangle::operator>(Rectangle &op2)
 {
     return (this->area() > op2.area());
+}
+bool operator->(Rectangle &op1, Rectangle &op2)
+{
+    return (op1.area() * op1.area()) > (op2.area() * op2.area());
 }
 int main()
 {
