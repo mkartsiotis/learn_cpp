@@ -12,4 +12,5 @@
 !*.txt
 !*.md
 !*Makefile
+!.*pdf
 !.gitignore
